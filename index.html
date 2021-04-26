@@ -1,0 +1,1517 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Travel Web</title>
+	<link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lora|Open+Sans:700&display=swap" rel="stylesheet">
+</head>
+
+<body onload="test()">
+
+
+<div class="outer">
+<div class="upper">
+
+<div id="test" class="scrl"><i class="fa fa-arrow-up"></i></div>
+<div class="head">
+    <div class="nav">
+     
+   <div class="logo2">
+<img src="images/logo.png">
+</div>
+  
+  <div class="main-nav2">
+    <input type="checkbox" id="check" >   
+    <label for="check" class="checkbtn">
+        <i class="fas fa-bars"></i>
+    </label>
+   <ul>  
+       <li><a  class="active" href="index.html">home</a></li>
+       <li><a  href="about-f.html">about</a></li>
+       <li><a   href="service-f.html">services</a></li>
+       <li><a  href="destin-f.html">destination</a></li>
+       <li><a   href="gallery-f.html">gallery</a></li>
+       <li><a   href="contact-f.html">contact</a></li>
+   </ul>
+</div>
+
+</div>
+</div>
+
+</div>
+
+		
+    <div class="banner">
+
+
+<i class="fas fa-arrow-right"></i>
+
+<i class="fas fa-arrow-left"></i>
+       			<figure>
+       				<img src="images/bn1.png">
+       				<img src="images/bn2.png">
+       				<img src="images/bn3.png">
+       				<img src="images/bn4.png">
+       				<img src="images/bn1.png">
+       			</figure>
+
+</div>
+
+
+
+<div class="upper">
+
+<div class="main2" >
+
+    <div id="newl1" onclick="test()" onmouseover="test3()" onmouseout="test4()">        
+<i class="fas fa-plane-departure "></i>
+<p class="tor z-01">Tour</p>
+    </div>
+
+     <div id="newl2" onclick="test2()" onmouseover="test5()" onmouseout="test6()">
+<i class="fas fa-home"></i>
+<p class="tor  z-01">Hotel</p>
+    </div>
+
+</div>
+
+
+
+
+
+<div id="main2new">
+
+<div class="one">
+
+<form >
+    <label for="text" class="lb1 w1 bl">NAME(*)</label><br>
+<input  class="txt" type="text"   name="username" placeholder="Name">
+</form>
+
+</div>
+
+
+<div class="two">
+
+<form >
+    <label for="email" class="lb1 w2">EMAIL(*)</label><br>
+<input   type="email" class="txt1" name="usermail" placeholder="Email">
+</form>
+
+</div>
+
+<div class="two">
+
+<form >
+    <label for="text" class="lb1 w99">DESTINATION(*)</label><br>
+<input  type="text" class="txt2" name="destination" placeholder="Destination">
+</form>
+</div>
+
+<div class="two">
+
+<form >
+    <label for="number" class="lb1 w99">CONTACT NO(*)</label><br>
+<input  type="tel" class="txt2" name="contact" placeholder="Contact No">
+</form>
+
+</div>
+
+<div class="three">
+    
+    <form >
+    <label for="text" class="lb1 w1">CHECK IN DATE</label><br>
+    <input  type="date" class="txt13" name="date" placeholder="Date">
+    </form>
+</div>
+
+    <div class="four">
+    <form >
+    <label for="date" class="lb1 w6">CHECK OUT DATE</label><br>
+    <input  type="date" class="txt12" name="date" placeholder="Date">
+    </form>
+    </div>
+
+
+    <div class="four">
+    <form >
+    <label for="text" class="lb1 w6">ROOMS REQUIRED</label><br>
+  
+   <select class="sel" id="rooms">  
+<option selected value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option> 
+ </select> 
+    </form>
+    </div>
+
+    <div class="four">      
+    <form >
+    <label for="text" class="lb1 w6">NO. OF ADULTS</label><br>
+ <select class="sel2" id="vrooms">  
+<option  selected value="0" >0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option> 
+ </select>
+    </form>
+    </div>
+
+
+    <div class="four">  
+    <form >
+    <label for="text" class="lb1 w6">NO. OF CHILDREN</label><br>
+    <select class="sel2" id="vrooms">  
+<option  selected value="0" >0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option> 
+ </select>
+    </form>
+    </div>
+
+
+    <div class="four">
+    <form >
+    <label for="text" class="lb1 w6">STAY DURATION</label><br>
+     <select class="sel2" id="vrooms">  
+
+<option selected value="1 days">1 day</option>
+<option value="2">2 days</option>
+<option value="3">3 days</option>
+<option value="4">4 days</option>
+<option value="5">5 days</option>
+<option value="6">6 days</option>
+<option value="7">7 days</option>
+<option value="8">8 days</option>
+<option value="9">9 days</option> 
+ </select>
+    </form>
+    </div>
+
+
+
+    <div class="three nde">
+    <img   class="capt" src="images/cap.png">
+    </div>
+
+
+    <div class="four nde">
+    <form >
+    <input  type="text" class="captwr " name="destination" placeholder="Enter Captcha">
+    </form>
+    </div>
+
+
+    <div class="fourty lde">
+    <div class="but1 btn1 buttn">Send&nbspQuery</div>
+    </div>
+
+    </div>
+
+
+
+
+
+    <div id="main1new">
+
+<div class="one">
+
+<form >
+    <label for="text" class="lb1 w1 bl">NAME(*)</label><br>
+<input  class="txt" type="text"   name="username" placeholder="Name">
+</form>
+
+</div>
+
+
+<div class="two">
+
+<form >
+    <label for="email" class="lb1 w2">EMAIL(*)</label><br>
+<input   type="email" class="txt1" name="usermail" placeholder="Email">
+</form>
+
+</div>
+
+<div class="two">
+
+<form >
+    <label for="text" class="lb1 w99">DESTINATION(*)</label><br>
+<input  type="text" class="txt2" name="destination" placeholder="Destination">
+</form>
+</div>
+
+<div class="two">
+
+<form >
+    <label for="number" class="lb1 w99">CONTACT NO(*)</label><br>
+<input  type="tel" class="txt2" name="contact" placeholder="Contact No">
+</form>
+
+</div>
+
+<div class="three">
+    
+    <form >
+    <label for="text" class="lb1 w1">ORIGIN CITY</label><br>
+    <input  class="txt11" type="text"   name="username" placeholder="City">
+    </form>
+</div>
+
+    <div class="four">
+    <form >
+    <label for="date" class="lb1 w6">STARTING FROM</label><br>
+    <input  type="date" class="txt12" name="date" placeholder="Date">
+    </form>
+    </div>
+
+
+    <div class="four">
+    <form >
+    <label for="text" class="lb1 w6">ROOMS REQUIRED</label><br>
+  
+   <select class="sel" id="rooms">  
+<option selected value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option> 
+ </select> 
+    </form>
+    </div>
+
+    <div class="four">      
+    <form >
+    <label for="text" class="lb1 w6">NO. OF ADULTS</label><br>
+ <select class="sel2" id="vrooms">  
+<option  selected value="0" >0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option> 
+ </select>
+    </form>
+    </div>
+
+
+    <div class="four">  
+    <form >
+    <label for="text" class="lb1 w6">NO. OF CHILDREN</label><br>
+    <select class="sel2" id="vrooms">  
+<option  selected value="0" >0</option>
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option> 
+ </select>
+    </form>
+    </div>
+
+
+    <div class="four">
+    <form >
+    <label for="text" class="lb1 w6">STAY DURATION</label><br>
+     <select class="sel2" id="vrooms">  
+
+<option selected value="1 days">1 day</option>
+<option value="2">2 days</option>
+<option value="3">3 days</option>
+<option value="4">4 days</option>
+<option value="5">5 days</option>
+<option value="6">6 days</option>
+<option value="7">7 days</option>
+<option value="8">8 days</option>
+<option value="9">9 days</option> 
+ </select>
+    </form>
+    </div>
+
+
+
+    <div class="three nde">
+    <img   class="capt" src="images/cap.png">
+    </div>
+
+
+    <div class="four nde">
+    <form >
+    <input  type="text" class="captwr" name="destination" placeholder="Captcha">
+    </form>
+    </div>
+
+
+    <div class="fourty lde">
+    <div class="but1 btn1 buttn">Send&nbspQuery</div>
+    </div>
+
+    </div>  
+
+
+
+<div class="main6 ">
+		<div class="main7 ">
+	<p class="ab"><strong>Trending Tours</strong></p>	
+    <p class="ac">These are Amazing Trending Travel Destinations !</p>
+
+    <div class="cd ja">
+    	<img src="images/fgoa.png">
+    	<div class="ver"> </div>
+    	<p class="hov">Only <span class="az">&#8377;</span> <span class="hov2">11,999</span></p>
+        <p class="pop">POPULAR</p>
+         <p class="go">Goa</p>
+
+         <p class="nig">3 Nights 4 Days </p>
+
+           <div class="set">
+         <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        </div> 
+       
+    </div>
+
+    <div class="cd">
+    	<img src="images/fkash.png"> 	
+    	<div class="ver"> </div> 
+    	<p class="hov">Only <span class="az">&#8377;</span> <span class="hov2">11,999</span></p>
+    	<p class="pop">POPULAR</p>
+    	 <p class="go">Kashmir</p>
+        <p class="nig">4 Nights 5 Days </p>  
+        <div class="set">
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+
+        </div>
+
+
+    <div class="cd"><img src="images/fleh.png"> 
+    	<div class="ver">  </div>
+    	<p class="hov">Only <span class="az">&#8377;</span> <span class="hov2">11,999</span></p>
+    	<p class="pop">POPULAR</p> 
+    	<p class="go">Ladakh</p>
+        <p class="nig">3 Nights 4 Days </p>
+        <div class="set">
+       <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    </div>
+
+
+    <div class="ce"><img src="images/fsing.png"> 
+    	<div class="ver"> </div>
+    	<p class="hov">Only <span class="az">&#8377;</span> <span class="hov2">11,999</span></p>
+    	 <p class="pop">POPULAR</p>
+    	   <p class="go">Singapre</p>
+        <p class="nig">5 Nights 6 Days </p>
+        <div class="set">
+         <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+        <span class="fa fa-star checked"></span>
+    </div>
+    </div>
+
+
+    </div>
+    </div>
+
+
+		
+	<div class="main6">
+		<div class="main7">
+      
+      	<p class="ab"><b>Our Service</b></p>	
+    <p class="ac">One Stop Solution for all your Travel Desires</p>
+
+        <div class="ad ax bord">
+    	<i class="fas fa-plane"></i>
+    	<p class="fly">Flight Booking</p>
+    	<p class="fly2">Save your precious time & hard earn money while booking your tickets with LiD Travel</p>
+        </div>
+        
+        <div class="ad ax bord">
+        <i class="fas fa-calendar-alt"></i>
+    	<p class="fly">Hotel Booking</p>
+    	<p class="fly2">Our rich repertoire of hotels will help you to choose hotel of your need & your budget</p>
+        </div>
+       
+        <div class="ad ax bord">
+        <i class="fas fa-briefcase"></i>
+    	<p class="fly">Car & Coach Rental</p>
+        <p class="fly2">At LiD we make sure that each vehicle we book will guarantee complete security & safety of our esteemed guests</p>
+        </div>
+        
+        <div class="ae ax bord"><i class="fas fa-car"></i>
+    	<p class="fly">Tour Packages</p>
+    	<p class="fly2">Customized packages as per your need is our USP, alongside we also offer group departures & theme tours</p>
+        </div>
+
+        <div class="but1 btn2 buttn31">View More</div>
+
+       
+
+        </div>
+	</div>
+    </div>
+
+
+     <div class="main8"> 	
+<div class="veri">
+
+	
+ <div class="upper12">
+<p class="appre">Words of appreciation</p>
+	<p class="par">We have worked with hundreds of clients. Check what our awesome happy clients saying about us.</p>
+
+	<p class="quot"><i class="fas fa-quote-left"></i>&nbsp&nbsp "Everything was perfect.. from the start of the journey till the end.. be it bus, resort, adventures, dj, foood Everything was well managed" &nbsp&nbsp  <i class="fas fa-quote-right"></i></p>
+
+	<p class="quot2">- Shilpa Awasthi</p>
+
+	<div class="but1 btn2 buttn3">View All</div>
+
+</div>
+</div>
+	</div>
+
+
+<div class="upper">
+
+
+<div class="main6">
+<div class="main7">
+		
+	<p class="ab ay"><b>Our Service</b></p>	
+    <p class="ac">One Stop Solution for all your Travel Desires</p>
+
+    <div class="ma">
+
+    	<div class="ka">
+    		<div class="kx"></div>
+    		<div class="kx1"></div>
+   <img src="images/h1f.png">
+    	</div>
+
+    	<div class="kb">
+    		<div class="set2">
+          <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        </div>
+        <p class="la">KEYS RONIL RESORT,GOA</p>
+        <p class="lb">Life is a party and the venue is Goa. It’s a carnival of the carefree mind and a celebration..</p>
+        <i class="fas fa-tv "></i>
+        <i class="fas fa-swimmer"></i>
+        <i class="fas fa-wifi"></i>
+    
+    	</div>
+
+
+    	<div class="kc">
+    		<p class="pa">Rs. 5500</p>
+    		<p class="pb">per night</p>
+    		<button class="btn2 buttn4">Details</button>
+    	</div>
+
+    </div>
+
+
+    <div class="mb">
+    	
+    	<div class="ka">
+    <div class="kx"></div>
+    <div class="kx1"></div>
+   <img src="images/h2f.png">
+    	</div>
+
+
+    	<div class="kb">
+    	<div class="set2">
+         <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        </div>
+        <p class="la">CORBETT AAMOD RESORT & SPA, JIM CORBETT</p>
+        <p class="lb">Redefining Hospitality driven by passion to create pure value while you stay with us.</p>
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-swimmer"></i>
+        <i class="fas fa-wifi"></i>
+        
+    	</div>
+
+    	<div class="kc">
+    		<p class="pa">Rs. 5000</p>
+    		<p class="pb">per night</p>
+    		<button class="btn2 buttn4">Details</button>
+    	</div>
+
+    </div>
+
+
+    <div class="ma">
+    	<div class="ka">
+    			<div class="kx"></div>
+    		<div class="kx1"></div>
+   <img src="images/h3f.png">
+    	</div>
+    	<div class="kb">
+    		<div class="set2">
+          <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        </div>
+
+        <p class="la">HOTEL PINE SPRING, PAHALGAM & SRINAGAR</p>
+
+        <p class="lb">Life is a party and the venue is Goa. It’s a carnival of the carefree mind and a celebration.</p>
+
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-swimmer"></i>
+        <i class="fas fa-wifi"></i>
+     
+
+    	</div>
+    	<div class="kc">
+    		<p class="pa">Rs. 8000</p>
+    		<p class="pb">per night</p>
+
+    		<button class="btn2 buttn4">Details</button>
+
+    	</div>
+    </div>
+
+
+    <div class="mb">
+    	<div class="ka">
+    			<div class="kx"></div>
+    		<div class="kx1"></div>
+   <img src="images/h4f.png">
+    	</div>
+    	<div class="kb">
+    		<div class="set2">
+          <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        </div>
+
+        <p class="la">SKY HEAVEN RESORT, MCLEOD GANJ</p>
+
+        <p class="lb">Set besides the green deodar timber and surrounded with the lavish green.</p>
+
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-swimmer"></i>
+        <i class="fas fa-wifi"></i>
+      
+
+    	</div>
+    	<div class="kc">
+    		<p class="pa">Rs. 4000</p>
+    		<p class="pb">per night</p>
+
+    		<button class="btn2 buttn4">Details</button>
+
+    	</div>
+
+    </div>
+
+    <div class="ma mc">
+    	<div class="ka">
+    			<div class="kx"></div>
+    		<div class="kx1"></div>
+   <img src="images/h5f.png">
+    	</div>
+    	<div class="kb">
+    		<div class="set2">
+          <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        </div>
+
+        <p class="la">SNOW PEAK RETREAT, MANALI</p>
+
+        <p class="lb">A Boutique property built in the Himalayan style with spacious and wood paneled rooms.</p>
+
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-swimmer"></i>
+        <i class="fas fa-wifi"></i>
+    
+
+    	</div>
+    	<div class="kc">
+    		<p class="pa">Rs. 5500</p>
+    		<p class="pb">per night</p>
+
+    		<button class="btn2 buttn4">Details</button>
+
+    	</div>
+
+    </div>
+
+
+    <div class="mb mc">
+    	
+    	<div class="ka">
+    			<div class="kx"></div>
+    		<div class="kx1"></div>
+   <img src="images/h6f.png">
+    	</div>
+    	<div class="kb">
+    		<div class="set2">
+          <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        <span class="fa fa-star checked size"></span>
+        </div>
+
+        <p class="la">DYNASTY RESORT, NAINITAL</p>
+
+        <p class="lb">Perched in the lap of Mother Nature and amongst a picturesque Sylvan backdrop</p>
+
+        <i class="fas fa-tv"></i>
+        <i class="fas fa-swimmer"></i>
+        <i class="fas fa-wifi"></i>
+       
+
+    	</div>
+    	<div class="kc">
+    		<p class="pa">Rs. 5500</p>
+    		<p class="pb">per night</p>
+
+    		<button class="btn2 buttn4">Details</button>
+
+    	</div>
+
+    </div>
+
+
+
+	</div>
+
+</div>
+</div>
+
+
+
+<div class="main6" >
+
+	<div class="main7">
+
+<p class="ab ay"><b>Popular Destination</b></p>	
+<p class="ac">These are Amazing Travel Destinations !</p>
+
+<div class="ad">
+    	<img src="images/fkash.png">
+    	
+    	<div class="ver"> </div>
+    	
+    	<div class="ler"> </div>
+        <p class="lov">KASHMIR</p>
+    	<p class="lov2">A land of unmatched scenic beauty and rich culture, Kashmir truly is a ‘Heaven on Earth’.</p>
+       
+         <p class="qb">India's Most Beautiful Place</p>
+         <p class="qa">kashmir</p>
+
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>
+      
+    
+       </div>
+
+
+    <div class="ad">
+    	<img src="images/k2f.png">
+    	<div class="ver"> </div>
+    	
+    	<div class="ler"> </div>
+        <p class="lov lov-02">SINGAPORE</p>
+    	<p class="lov2">Boasting of historical landmarks, diverse culture, Singapore is a popular.</p>
+       
+         <p class="qb">Fall in love with Singapore</p>
+         <p class="qa" >Singapore</p>
+
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>   
+    </div>
+
+
+    <div class="ad">
+    	<img src="images/k6f.png">
+    	<div class="ver"> </div>
+    	
+    	<div class="ler"> </div>
+        <p class="lov lov-03">Mcleodganj</p>
+    	<p class="lov2">Dharamshala or McLeod Ganj is a picturesque hill station located in the beautiful valleys.</p>
+       
+         <p class="qb" >Fall in love with Triund</p>
+         <p class="qa" >Mcleodganj</p>
+
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>
+    
+       
+    </div>
+
+     <div class="ae"><img src="images/k5f.png"> 
+    	<div class="ver"> </div>
+    	
+    	<div class="ler"> </div>
+        <p class="lov lov-11">Leh Ladakh</p>
+    	<p class="lov2">Ladakh, the Land of High Passes, wins hearts with its simplicity and rugged natural beauty</p>
+       
+         <p class="qb">A beauty of nature</p>
+         <p class="qa">Leh Ladakh</p>
+
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>
+    </div>
+
+
+<div class="ad">
+    	<img src="images/k7f.png">
+    	<div class="ver"> </div>
+    		
+    	<div class="ler"> </div>
+        <p class="lov">Thailand</p>
+    	<p class="lov2">A land of unmatched scenic beauty and rich culture, Kashmir truly is a ‘Heaven on Earth’</p>
+       
+         <p class="qb">It begin's with the people </p>
+         <p class="qa">Thailand</p>
+
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>
+    
+       
+    </div>
+
+
+    <div class="ad">
+    	<img src="images/k0f.png">
+    	<div class="ver"> </div>
+    	
+    	<div class="ler"> </div>
+        <p class="lov">Europe</p>
+    	<p class="lov2">Europe is some of the most visited tourist destinations in the world.</p>
+       
+         <p class="qb">Explore the Amazing Europe</p>
+         <p class="qa">Europe</p>
+
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>   
+    </div>
+
+
+    <div class="ad">
+    	  <div class="al">
+    	<img src="images/k4f.png">
+    	  </div>
+    	<div class="ver"> </div>
+    	
+    	<div class="ler"> </div>
+        <p class="lov lov-16">Manali</p>
+    	<p class="lov2">Sitting in the lap of lofty mountains, Manali is a paradise for nature lovers.</p>
+       
+         <p class="qb">Best under the Himachal sky</p>
+         <p class="qa">kullu & Manali</p>
+
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>    
+    </div>
+
+
+
+     <div class="ae"><img src="images/fsing.png"> 
+    	<div class="ver"> </div>
+    	
+    	<div class="ler"> </div>
+      <p class="lov lov-02">SINGAPORE</p>
+        <p class="lov2">Boasting of historical landmarks, diverse culture, Singapore is a popular.</p>
+       
+         <p class="qb">Fall in love with Singapore</p>
+         <p class="qa" >Singapore</p>
+         
+        <i class="fas fa-globe checked2"></i>
+      <i class="fas fa-ship checked3"></i>
+           <i class="fas fa-calendar-plus checked5"></i>
+    </div>
+
+
+    
+
+</div>
+</div>
+
+
+
+	<div class="main6 ">
+
+	<div class="main7">
+
+<p class="ab ay"><b>Latest Tour Package</b></p>	
+<p class="ac">A great Collection of our Tour Packages</p>
+
+<div class="as">
+	<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">MAGNIFICIENT LEH & LADAKH
+
+        
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m1f.png">       
+</div>
+
+<div class="vcom">
+<p class="va">LEH & LADAKH</p>
+<p class="vb">Duration: 8 days</p>
+</div>
+</div>
+
+
+
+<div class="as">
+	<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">LEH WITH ULEYTOKPO<br>
+
+        
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m2f.png">
+       
+</div>
+<div class="vcom">
+<p class="va">LEH WITH ULEYTOKPO</p>
+<p class="vb">Duration: 6 days</p>
+</div>
+
+</div>
+
+
+
+<div class="as">
+		<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">LEH WITH PANGONG<br>
+
+        
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m3f.png">
+       
+</div>
+<div class="vcom">
+<p class="va">LEH WITH PANGONG</p>
+	<p class="vb">Duration: 5 days</p>
+</div>
+
+
+
+
+
+	</div>
+<div class="ps">
+		<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">AMAZING LEH & LADAKH<br>
+
+        
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m4f.png">
+       
+</div>
+<div class="vcom">
+<p class="va">LEH & LADAKH</p>
+	<p class="vb">Duration: 6 days</p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+<div class="as mgb">
+	
+		<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">HEAVEN ON EARTH – KASHMIR<br>
+
+        
+      
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m5f.png">
+       
+</div>
+<div class="vcom">
+<p class="va">KASHMIR</p>
+	<p class="vb">Duration: 7 days</p>
+</div>
+</div>
+
+
+
+
+<div class="as mgb">
+			<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">MAJESTIC KASHMIR<br>
+
+        
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m6f.png">
+       
+</div>
+<div class="vcom">
+<p class="va">MAJESTIC KASHMIR</p>
+	<p class="vb">Duration: 6 days</p>
+</div>
+</div>
+
+
+
+
+<div class="as mgb">
+		<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">LEH WITH PANGONG<br>
+
+        
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m3f.png">
+       
+</div>
+<div class="vcom">
+<p class="va">LEH WITH PANGONG</p>
+	<p class="vb">Duration: 5 days</p>
+</div>
+</div>
+
+
+
+
+
+<div class="ps mgb">
+			<div class="qw">
+		<div class="qe"> </div>
+		<p class="ui">AMAZING KERALA<br>
+
+        
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+        <i class="fa fa-star checked size"></i>
+
+
+        <button class="buttn2 btn2 ">Explore Now</button>
+        
+
+		</p>
+	<img src="images/m8f.png">
+       
+</div>
+<div class="vcom">
+<p class="va">AMAZING KERALA</p>
+	<p class="vb">Duration: 6 days</p>
+</div>
+</div>
+
+
+<div class="but1 btn2 buttn31 ja">View More</div>
+
+</div>
+</div>
+
+
+</div>
+
+
+
+
+   
+
+
+   <div class="out2">
+	  <div class="main9">
+
+<div class="veri">
+
+<div class="upper">
+
+	<div class="ha">
+	
+	<i class="fas fa-globe gl"></i>
+	<p class="nam counter">248</p>
+	<p class="nam1_01 nm1 nm-04">Destinations</p>
+
+	</div>
+	<div class="ha">
+		
+<i class="fas fa-house-damage gl-03 gl1 "></i>
+	<p class="nam_01 counter nam_01-09">507</p>
+	<p class="nam1_01 nam1_01-01">Hotels</p>
+
+	</div>
+	<div class="ha">
+		
+<i class="fas fa-bus-alt gl1 "></i>
+	<p class="nam_01 counter" style="color:white">987</p>
+	<p class="nam1_01 nam1_01-02">Tourists</p>
+
+	</div>
+	<div class="ha">
+		
+<i class="fas fa-road gl1"></i>
+	<p class="nam_01 counter">891</p>
+	<p class="nam1_01 nm1">Destinations</p>
+	</div>
+
+</div>
+
+</div>	
+
+</div>
+
+
+
+
+
+
+
+
+   <div class="upper st">
+	<div class="main6 wh">
+
+	<div class="main7 ove wh">
+		
+	<p class="ab ay"><b>Our Service</b></p>	
+    <p class="ac">One Stop Solution for all your Travel Desires</p>
+
+
+    <div class="slid">
+
+    	<div class="sl1">
+    		
+<div class="cc">
+<img src="images/v1f.png">
+</div>
+
+<div class="cc1">
+
+<p class="cc2">Solo Female Travel in India: Best Tips by Blossom O’Bradovich</p>
+
+<p class="cc3">Solo traveling in India is on rise and many Indian girls are also into it. On Social Media and several blogs, you can find the updates and stories of Indian solo female travelers. But it has to go a long way before we can ......</p>
+
+</div>
+
+
+    	</div>
+
+
+    	<div class="sl1">
+    		<div class="cc">
+<img src="images/v2f.png">
+</div>
+
+<div class="cc1">
+
+<p class="cc2">These 3 Articles Sure TEMPT You To Visit Kerala Over And Over Again</p>
+
+<p class="cc3">Why is Kerala Tourism on rise? Because, traveling to Kerala is a complete tour package. If you have time, you can spend months and months to explore every aspect of Kerala. It has abandons of the natural extravaganza-..........</p>
+
+</div>
+
+    	</div>
+
+
+    	<div class="sl1">
+    		<div class="cc">
+<img src="images/v3f.png">
+</div>
+
+<div class="cc1">
+
+<p class="cc2">155 Travel Quotes – Explore These Travel Quotes & Get A Reason To Travel</p>
+
+<p class="cc3">“Traveling is symbolic to life. Life is a journey in itself.” Every living thing constantly changes its position in this universe. Human beings have been roaming from one place to another since eternity. ⇒First, they traveled......</p>
+
+</div>
+
+    	</div>
+
+
+
+    	<div class="sl1">
+    		
+<div class="cc">
+<img src="images/v4f.png">
+</div>
+
+<div class="cc1">
+
+<p class="cc2">Offbeat Travel Destinations in Kerala to Rejuvenate Your & Soul</p>
+
+<p class="cc3">Kerala, often touted as the heaven on earth after Jammu & Kashmir albeit rightfully so, offers a plethora of offbeat travel destinations that often go unexplored by the bounty travellers. Written by Abhilasha Bahadur.......</p>
+
+</div>
+
+
+    	</div>
+    	<div class="sl1">
+    		
+<div class="cc">
+<img src="images/v6f.png">
+</div>
+
+<div class="cc1">
+
+<p class="cc2">Best Things to do in DUBAI</p>
+
+<p class="cc3">Standing 828 metres high, the Burj Khalifa is hard to miss. The world’s tallest tower naturally dominates the Dubai skyline, but the true majesty of the building is best.....</p>
+
+</div>
+
+
+
+    	</div>
+    	<div class="sl2">
+    		
+<div class="cc">
+<img src="images/v1f.png">
+</div>
+
+<div class="cc1">
+
+<p class="cc2">Solo Female Travel in India: Best Tips by Blossom O’Bradovich</p>
+
+<p class="cc3">Solo traveling in India is on rise and many Indian girls are also into it. On Social Media and several blogs, you can find the updates and stories of Indian solo female travelers. But it has to go a long way before we can ......</p>
+
+</div>
+
+
+
+
+    	</div>
+    </div>
+
+ <div class="but1 btn1 btn2 buttn71">View All</div>
+
+</div>
+</div>
+</div>
+
+
+
+    <div class="main10">
+<div class="veri2">
+
+<div class="upper">
+<div class="ga">	
+<p class="gc">Subscribe to our Newsletter</p>
+<p class="gd">& Discover the best offers!</p>
+</div>
+
+
+<div class="gb">	
+<form class="adj">
+<input   type="email" name="usermail" placeholder="Enter Your Mail">
+<button  class="adj2" type="submit" ><i class="fas fa-paper-plane"></i><span class="adj5"> Subscribe</span></button>
+</form>
+</div>
+
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+
+
+
+<div class="outer">
+ <div class="upper" >
+
+<div class="main6" style="background-color:#242121">
+   
+
+        <div class="ge1"> 
+         <p class="xa">LiD Travel ( a unit of )</p>
+        <p class="xb xb-01">LIGHTS IN DARK TRAVEL & EVENTS PVT. LTD.</p>
+        <p class="xc"><i class="fas fa-map-marker-alt"></i>&nbsp&nbsp&nbsp&nbspA-4/20, Paschim Vihar, New Delhi-110063, India.</p>
+        <p class="xc xc1"><i class="fas fa-phone-volume"></i>&nbsp&nbsp&nbsp&nbsp+91 9990444774, 9990444740</p>
+        <p class="xc"><i class="fas fa-envelope"></i>&nbsp&nbsp&nbsp&nbspinfo@lightsindark.in</p>
+    </div>
+        
+
+        <div class="gf1">    
+            <p class="xa">Destinations</p>
+     <p class="xf">KERALA</p>
+     <p class="xf">GOA</p>
+     <p class="xf">SHIMLA & MANALI</p>
+     <p class="xf">DALHOUSIE & DHARAMSHALA</p>
+     <p class="xf">DARJEELING & GANGTOK</p>
+     <p class="xf" style="padding-bottom:4%;">HONG KONG & MACAU</p>
+     </div>
+        <div class="ge1">
+         <p class="xa xl1">Sales Offices Locations:</p>
+    <p class="xz"><i class="fas fa-map-marker-alt"></i>&nbsp&nbsp&nbsp&nbspMumbai | Pune | Jalandhar | Ahmedabad</p>
+    <hr class="hhr">
+    <p class="xy">Operation Offices Locations:</p>
+    <p class="xz xx"><i class="fas fa-map-marker-alt"></i>&nbsp&nbsp&nbsp&nbspCochin, Kerala | Srinagar, Jammu & Kashmir | Manali, Himachal Pradesh | Shimla, Himachal Pradesh | Gangtok, Sikkim | Darjeeling, West Bengal | Goa | Dharamshala, Himachal Pradesh | Pattaya, Thailand</p></div>
+
+    
+
+    <div class="xn">
+    <div class="xm" >Copyright © 2014. Lights in Dark Travel & Events Pvt. Ltd.. All rights reserved.</div>  
+</div>
+</div> 
+  
+</div>
+
+</div>
+
+<script>
+    
+$(document).ready(function(){
+
+$(window).scroll(function(){
+
+if($(this).scrollTop()>200)
+{
+   $("#test").fadeIn();
+}
+
+else
+{
+    $("#test").fadeOut();
+}
+})
+
+$("#test").click(function(){
+
+$("body,html").animate({scrollTop:0},1000);
+return false;
+
+
+});
+
+
+
+$(window).scroll(function(){
+
+if($(this).scrollTop()>200){
+  
+  $(".nav").css("background-color","white");
+  $(".main-nav2 ul a").css("color","black");
+  $(".main-nav2 a.active").css("color","#FEC107");
+  $(".main-nav2 a").mouseover(function(){
+  $(this).css("color","#FEC107");}).mouseout(function(){
+    $(this).css({"color":"black","transition":"0.5s"});});
+
+}
+
+else{
+    $(".nav").css("background-color","transparent");
+    $(".main-nav2 ul a").css("color","white");
+    $(".main-nav2 a.active").css("color","#FEC107");
+    $(".main-nav2 a").mouseover(function(){
+    $(this).css("color","#FEC107");}).mouseout(function(){
+    $(this).css("color","white")});
+
+}
+});
+
+$('.counter').countUp();
+
+$('.counter').countUp({
+
+  'time': 8000,
+  'delay': 10
+});
+
+
+
+
+
+
+
+
+
+
+});
+
+
+</script>
+
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+<script src="jquery.countup.js"></script>
+
+
+
+
+
+
+
+<script src="new.js">
+</script>
+
+
+</body>
+</html>
+
+
+
+
+
+
+
+
